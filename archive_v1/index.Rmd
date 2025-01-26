@@ -1,0 +1,35 @@
+---
+title: "Gonzalo Talavera Forlin"
+output: 
+  html_document:
+    includes:
+      in_header: cover.html
+---
+```{r setup, echo=FALSE, message=FALSE}
+source("scripts/treemap.R")
+```
+
+Estudié economía en la [Universidad del Pacífico](https://www.up.edu.pe/carreras-postgrado-idiomas/carreras-pregrado/economia),  administración pública en [The Maxwell School of Syracuse University](https://www.maxwell.syr.edu/paia/masters-in-public-administration/) y estudios territoriales y de la población en la [UAB](https://www.uab.cat/departament/geografia/). Dirigí [TECHO.org](techo.org/pe) y trabajé diseñando políticas y gestionando programas en los ministerios de Desarrollo e Inclusión Social, de Educación y de Trabajo. Aprendí R más tarde de lo que hubiera querido. Fundé desarro.io con un grupo de amigs. Me gustan los mapas y la visualización de datos.
+
+## Proyectos
+Mapas:  
+
+- [Personas mayores de 60 años en Lima](https://gtalavera.github.io/mayoresde60lima.html)
+- [Personas mayores de 60 años en otras ciudades peruanas](https://gtalavera.github.io/mayoresde60ciudades.html)
+- Publiqué un [hilo de twitter](https://twitter.com/gonzalotalavera/status/1240100837776666624) con algunos comentarios a los dos mapas anteriores
+
+Visualizaciones con [desarro.io](https://desarro.io/es/):  
+
+- [Análisis de discuros inaugurales de los últimos presidentes](https://twitter.com/desarro_io/status/1420530624977416192)
+- [Participación de mujeres en gabinetes ministeriales entre 2001 y 2021](https://twitter.com/desarro_io/status/1420980995092791296), con [Carla Solís](https://github.com/ccsuehara)
+- [Primeres ministres de los últimos 20 años](https://twitter.com/desarro_io/status/1431356523779919874), con [Ioanna Gallo](https://www.linkedin.com/in/ioannagallojimenez/) y [Luis Eduardo San Martín](https://github.com/luisesanmartin)
+
+## CV
+```{r cv, echo=FALSE}
+plot_cv
+```
+
+  
+  
+  
+Imagen de portada: Mosaicos generados con la herramienta "[Escher-like spiral tiles](Mosaicos generados en https://isohedral.ca/escher-like-spiral-tilings/, por Craig S. Kaplan)" de Craig S. Kaplan 

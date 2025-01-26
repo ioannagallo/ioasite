@@ -1,0 +1,57 @@
+/* css styles */
+
+
+.navbar-logo {
+  min-height: 60px;
+  border-radius: 10px;
+}
+
+.menu-text{
+  font-size:x-large;
+}
+
+.mi-encabezado{
+  margin-top:0px;
+}
+
+.column-screen{
+  margin-bottom:30px;
+  padding: 50px;
+}
+
+.tagline{
+  background: #BAA6A5;
+  margin-top:-32px;
+}
+
+.gallery{
+  background: #CAB09A;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+
+
+.img-fluid{
+  margin-bottom:20px;
+}
+
+.service-image{
+ height:40px; 
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows for wrapping if the content doesn't fit in one row */
+  justify-content: space-between; /* Distribute cards with space in between */
+  gap: 20px; /* Add some space between cards */
+}
+
+.service-card {
+  flex: 0 0 calc(33.33% - 20px); /* Distribute cards equally with 20px gap */
+  max-width: calc(33.33% - 20px); /* Set the maximum width for each card */
+}
+
+.card-img{
+  vertical-align: top;
+}

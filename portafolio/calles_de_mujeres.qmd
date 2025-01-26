@@ -1,0 +1,22 @@
+---
+title: "De qué mujeres hablan nuestras calles"
+subtitle: "Nombres de mujeres en calles de lima y callao"
+description: "Data story en colaboración con [desarro.io](https://desarro.io)"
+# author: "Gonzalo"
+image: cover_calles.gif
+toc: false
+page-layout: article
+date: "3/08/2022"
+categories:
+  - Data stories
+  - Leaflet
+  - Ciudad
+  - Género
+  - R
+---
+
+
+<iframe src="https://desarroio.github.io/genero-calles/" width="100%" height="8250" style="border: 1px solid #808080;"></iframe>
+
+
+Este es un trabajo del equipo de desarro.io. La idea y el prototipo en Python son de carla solis. El desarrollo web es de gonzalo talavera forlin. Los textos, análisis y verificación de datos son de ioanna gallo, Daniela Velit y Gonzalo. Las imágenes son de carlos julio san martín. También participaron Luis Eduardo San Martín y Marcy Castro.

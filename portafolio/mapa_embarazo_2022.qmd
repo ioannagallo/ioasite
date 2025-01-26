@@ -1,0 +1,28 @@
+---
+title: "Tablero del Mapa del embarazo y la maternidad adolescentes 2022"
+subtitle: "Indicadores oficiales desagregados a nivel departamental o provincial"
+description: "Tablero en Shiny para UNFPA Perú"
+# author: "Gonzalo"
+image: cover_mapaea.gif
+toc: false
+page-layout: article
+date: "9/26/2022"
+categories:
+  - R
+  - RShiny
+  - Dashboards
+---
+
+Cada día ocurren 4 nacimientos en niñas de 10 a 14 años en el Perú.
+
+Como parte de sus esfuerzos por poner fin a las muertes maternas evitables y a las necesidades insatisfechas de planificación familiar, el UNFPA nos pidió un dashboard para poner a disposición de gobiernos regionales y locales, prensa y público en general, los datos oficiales de 2022 que muestran la situación del embarazo adolescente.
+
+Puedes explorar el [tablero interactivo en la web del unfpa](https://peru.unfpa.org/es/mapa-embarazo-y-maternidad-adolescentes-peru) haciendo click en la imagen siguiente, o interactuar con la versión directa del tablero más abajo.
+
+[![](images/mapaea.png){style="border: 1px solid #808080; width:750px"}](https://peru.unfpa.org/es/mapa-embarazo-y-maternidad-adolescentes-peru)
+
+## Versión directa del tablero
+
+<iframe src="https://desarroio.shinyapps.io/unfpa-mapa-ea/" width="100%" height="1850" style="border: 1px solid #808080;">
+
+</iframe>

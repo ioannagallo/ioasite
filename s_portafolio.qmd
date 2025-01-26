@@ -1,0 +1,11 @@
+---
+title: "Portafolio"
+listing: 
+  contents: "portafolio/*.qmd"
+  type: default
+  image-height: 250px
+  sort: "date desc"
+  categories: false
+  sort-ui: true
+  filter-ui: true
+---

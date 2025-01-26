@@ -1,0 +1,92 @@
+---
+title: ""
+filters:
+   - lightbox
+lightbox:
+  effect: fade
+  desc-position: bottom
+  loop: false
+  css-class: galeria
+toc: false
+listing: 
+  - id: portafolio
+    contents: "portafolio/*.qmd"
+    type: grid
+    image-height: 250px
+    max-items: 6
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [image, title, categories]
+---
+
+:::::: {.column-screen .tagline}
+::: {.column-body layout="[ 80, 20 ]"}
+# Consultor independiente {style="margin-top: 0px;"}
+
+Ayudo a organizaciones que trabajan en políticas públicas a utilizar sus datos para encontrar y comunicar con efectividad y rigurosidad los mensajes más importantes que se puedan obtener de ellos. Analizo datos y produzco visualizaciones que acercan contenidos complejos a públicos con distintos niveles de especialización.
+
+![](images/gtf.jpeg){style="border-radius: 10px;"}
+:::
+::::::
+
+:::::: {#services .services}
+# Servicios
+
+::::::::: card-container
+:::::: service-card
+::: card-header
+### Dashboards ![](images/table-columns-solid.svg){.service-image}
+:::
+
+::: card-body
+Muestra el estado de avance de los KPI de tus proyectos o pon a disposición los datos de tus estudios para que tu audiencia pueda interactuar fácilmente con ellos, descubrir tendencias o profundizar en las particularidades de un territorio.
+:::
+::::::
+
+:::::: service-card
+::: card-header
+### Briefs ![](images/file-lines-regular.svg){.service-image}
+:::
+
+::: card-body
+Convierte extensos reportes de investigación o resultados de trabajo de campo en documentos breves con visualizaciones estáticas o interactivas efectivas que te ayuden a difundir tus hallazgos y recomendaciones de política.
+:::
+::::::
+
+:::::: service-card
+::: card-header
+### Visualizaciones ![](images/chart-column-solid.svg){.service-image}
+:::
+
+::: card-body
+Sintetiza tus hallazgos en gráficos efectivos que transmitan los mensajes más importantes de tus datos para tu público objetivo. Usa estos gráficos estáticos o animados para tus publicaciones en redes sociales o como insumos para tus presentaciones o pitchs.
+:::
+::::::
+:::::::::
+::::::::::::
+
+# Proyectos destacados
+
+::: {#portafolio}
+:::
+
+::: {.column-screen .gallery style="margin-top:0px;padding-top:0px;padding-bottom:0px"}
+# Galería
+:::
+
+::: {.column-screen .gallery layout="[[1, 1, 1, 1]]" style="padding-top:10px"}
+![](gallery/heatmap_tw.png){.lightbox style="width:100%;" group="galeria" description="Los mapas de calor pueden mostrar la intensidad de una variable en una cuadrícula."} ![](gallery/1_1_centrum_reactable.png){.lightbox style="width:100%;" group="galeria" description="Las tablas con Reactable se pueden filtrar y ordernar, y pueden incluir minigráficos o imágenes en sus celdas."} ![](gallery/mapa-popups.gif){.lightbox style="width:100%;" group="galeria" description="Los mapas con Leaflet tienen popups que muestran información adicional y pueden enlazar a contenido externo."} ![](gallery/1_2_seguros_map.png){.lightbox group="galeria" description="Los datos censales permiten elaborar mapas a nivel de manzana."} ![](gallery/1_3_small_multiples.png){.lightbox group="galeria" description="'Small multiples' sobre niveles de pobreza en el Perú, con datos de la Encuesta nacional de hogares."}
+
+![](gallery/2_1_centrum_map.gif){.lightbox group="galeria" description="Los mapas en Leaflet pueden mostrar contenido emergente y se pueden explorar."}
+![](gallery/2_2_centrum_snake.gif){.lightbox group="galeria" description="Los diagramas de dispersión en Plotly permiten seleccionar o aislar series y ordenar o filtrar los datos."} ![](gallery/2_3_mapaea_dashboard.gif){.lightbox group="galeria" description="Tablero en Shiny para el UNFPA Perú."}
+![](gallery/2_5_discursos_facet.png){.lightbox group="galeria" description="Diagramas con facets para mostrar información desagregada. Colaboración con Luis Eduardo San martín, Carla Solís y desarro.io."} ![](gallery/2_4_seguros_stackedbars.png){.lightbox group="galeria" description="Diagrama de datos apilados con datos del Censo de población y vivienda 2017 del Perú."}
+
+![](gallery/3_1_mapaea_infografia.png){.lightbox group="galeria" description="Infografías estáticas con prinicpales hallazgos de el estudio sobre embarazo y maternidad adolescentes del UNFPA Perú."} ![](gallery/3_2_centrum_scatters.gif){.lightbox group="galeria" description="Diagramas de dispersión para mostrar correlación entre variables"} 
+![](gallery/3_3_ministros_barplot.jpeg){.lightbox group="galeria" description="Diagramas estáticos efectivos. Colaboración con Ioanna Gallo y Luis Eduardo San Martín."}
+
+![](gallery/barplots_avances.gif){.lightbox group="galeria" description="Minigráficos para el monitoreo de avances de un proyecto."} 
+![](gallery/1_5_ministras_plot.png){.lightbox group="galeria" description="Gráfico estático con esquinas redondeadas para mostrar etapas a lo largo del tiempo. Colaboración con Carla Solís y desarro.io."} ![](gallery/2_6_discursos_similitud.png){.lightbox group="galeria" description="Diagramas de dispersión. Colaboración con Luis Eduardo San martín, Carla Solís y desarro.io."} ![](gallery/3_4_calles_article.gif){.lightbox group="galeria" description="Data story sobre calles de Lima con nombres de mujeres. Colaboración con Carla Solís y desarro.io."} 
+![](gallery/1_4_centrum_sunburst.gif){.lightbox group="galeria" description="Los datos jerárquicos pueden mostrarse con sunbursts interactivos."}
+:::

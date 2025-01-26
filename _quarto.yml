@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "<span style=font-size:x-large>Ioanna Gallo Jimenez&nbsp;</span><br><span style=font-size:small>Visualización de datos para politicas públicas</span>"
+  favicon: "/images/desarroio_favicon.png"
+  navbar:
+    background: "#5297AC"
+    pinned: true
+    search: true
+    logo: "/images/profilepic_IGJ.jpeg"
+    left:
+      - href: s_about.qmd
+        text: Bio
+      - href: s_servicios.qmd
+        text: Servicios
+      - href: s_portafolio.qmd
+        text: Portafolio
+    right:
+      - href: https://desarro.io/es/
+        text: "<img src='/images/logo_desarroio_blanco.png' alt='logo desarro.io' style='height: 20px; vertical-align: middle; margin-right: 5px;'>"
+        target: _blank
+    tools:
+      - icon: github
+        href: https://github.com/ioannagallo
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ioannagallo/
+  page-footer: "Esta web fue hecha por mi, usando Quarto. 2025" 
+  
+
+format:
+  html:
+    anchor-sections: false
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    extensions:
+      - fontawesome
+    link-external-newwindow: true
+    grid:
+      sidebar-width: 190px
+      body-width: 1200px
+      margin-width: 190px
+      gutter-width: 1.5rem
+
+
+editor: visual
+

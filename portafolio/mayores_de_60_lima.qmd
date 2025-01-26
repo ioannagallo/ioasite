@@ -1,0 +1,19 @@
+---
+title: "Mayores de 60 años en manzanas de Lima"
+subtitle: "Mapa para identificar la proporción de mayores de 60 años en la ciudad en tiempos de COVID"
+description: "Mapa a nivel de manzanas con la proporción de adultos mayores"
+image: cover_mayores_de_60_lima.png
+toc: false
+page-layout: article
+date: "3/17/2020"
+categories:
+  - R
+  - Leaflet
+  - Covid
+  - Adultos mayores
+
+---
+
+Este fue uno de mis primeros trabajos haciendo mapas. Al inicio de la pandemia era imporante ubicar en el territorio las zonas con mayor proporción de población vulnerable. Uno de estos grupos era el de mayores de 60 años. Utilizando datos del Censo de Población y Vivienda 2017 calculé la proporción de personas mayores de 60 años por manzana y publiqué los resultados en un mapa interactivo.
+
+<iframe src="mayoresde60lima.html" width="100%" height="1500" style="border: 1px solid #808080;"></iframe>

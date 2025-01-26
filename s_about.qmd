@@ -1,0 +1,61 @@
+---
+title: "Gonzalo Talavera Forlin"
+about:
+  id: hero-heading
+  template: trestles
+  image: images/gtf.jpeg
+  image-shape: rounded
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/gonzalotalavera
+    - icon: github
+      text: GitHub
+      href: https://github.com/gtalavera
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/gonzalotalavera/
+toc: false
+---
+
+# Bio
+
+::: {#hero-heading}
+Soy consultor independiente en visualización y análisis de datos para políticas públicas. También soy cofundador de [desarro.io](https://desarro.io).
+
+## Experiencia
+
+**desarro.io**\
+Director ejecutivo \| 2020 - a la fecha
+
+**Ministerio de Trabajo y Promoción del Empleo - Perú**\
+Gerente de operaciones del Programa Nacional para la Empleabilidad\| 2021 - 2022
+
+**Ministerio de Desarrollo e Inclusión Social - Perú**\
+Coordinador de diseño de políticas \| 2017 - 2018\
+Asesor de la Dirección Ejecutiva del Programa Juntos \| 2012 - 2014
+
+**Universidad de Ingeniería y Tecnología**\
+Profesor en el Departamento de humanidades \| 2017 - 2021
+
+**Ministerio de Educación**\
+Coordinador de Rutas Solidarias: bicicletas rurales para llegar a la escuela \| 2016 - 2017\
+Asesor de la Dirección General de Educación Superior y Técnico-Productiva \| 2014 - 2014
+
+**Techo.org**\
+Miembro de la junta directiva \| 2017 - a la fecha\
+Director regional para países andinos \| 2011 - 2012\
+Subdirector para América Latina y el Caribe \| 2008 - 2011\
+Director social - Perú \| 2006 - 2008
+
+## Educación
+
+Universidad Autónoma de Barcelona \| Barcelona, ES\
+Master en estudios territoriales y de la población \| 2019
+
+The Maxwell School at Syracuse University \| Syracuse, NY\
+Master of Public Administration \| 2015
+
+Universidad del Pacífico \| Lima, PE\
+Bachiller en Economía \| 2004
+:::

@@ -1,0 +1,33 @@
+---
+title: "Tablero del Índice del desarrollo social de la mujer y el hombre"
+subtitle: "Indicadores de desarrollo social desagregados a nivel subnacional para ocho países de América Latina"
+description: "Tablero en Shiny para Centrum Pucp"
+image: idsmh.gif
+toc: false
+page-layout: article
+date: "3/22/2023"
+categories:
+  - R
+  - RShiny
+  - Dashboards
+---
+
+Por encargo de [Centrum Think (PUCP)](https://centrumthink.pucp.edu.pe/) desarrollamos, junto a [Daniela Velit](https://www.linkedin.com/in/daniela-velit-bassino/), un tablero para mostrar los resultados del Índice del Desarrollo Social de la Mujer y el Hombre en Países de América Latina 2022 (IDSMH), elaborado por Luis del Carpio y Beatrice Avolio.
+
+El IDSMH mide la situación actual del acceso a recursos por parte de mujeres y hombres, y abarca 191 territorios subnacionales de 8 países de América Latina. Los datos permiten comparar los indicadores entre los estados, departamentos, regiones o provincias de los distintos países, y permiten también identificar las brechas en el desarrollo entre hombres y mujeres.
+
+Puedes explorar [el tablero publicado en la web centrum think](https://centrumthink.pucp.edu.pe/estudio/indice-del-desarrollo-social-de-la-mujer-y-el-hombre-en-paises-de-america-latina-2023-idsmh/) haciendo click en la siguiente imagen, o continuar bajando para explorar la versión directa del tablero.
+
+[![](images/centrum.png){style="border: 1px solid #808080;"}](https://centrumthink.pucp.edu.pe/estudio/indice-del-desarrollo-social-de-la-mujer-y-el-hombre-en-paises-de-america-latina-2023-idsmh/)
+
+## Versión directa del tablero
+
+<iframe src="https://desarroio.shinyapps.io/centrum-idsmh/" width="100%" height="1850" style="border: 1px solid #808080;">
+
+</iframe>
+
+El Índice del Desarrollo Social de la Mujer y el Hombre en Países de América Latina 2022 (IDSMH) fue presentado aquí:
+
+```{=html}
+<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FCENTRUMPUCP%2Fvideos%2F251245697332653%2F&show_text=false&width=560&t=5689" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+```

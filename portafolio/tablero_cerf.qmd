@@ -1,0 +1,28 @@
+---
+title: "Monitoreo del proyecto Salvando vidas"
+subtitle: "Tablero de monitoreo de avances en indicadores clave"
+description: "Dasboard en Shiny para el UNFPA Perú"
+# author: "Gonzalo"
+image: cover_tablero_cerf.gif
+toc: false
+page-layout: article
+date: "10/28/2023"
+categories:
+  - R
+  - RShiny
+  - Dashboards
+  - Monitoreo
+  - Salud sexual y reproductiva
+  - Violencia de género
+---
+
+Este tablero muestra el avance en los indicadores clave del proyecto "Salvando vidas" del UNFPA Perú. Los datos son actualizados por funcionarios del proyecto en programas de uso común, y sirven como insumo para los elementos gráficos del tablero.
+
+Haz click en la imagen para ver el tablero en el entorno del UNFPA, o sigue bajando para explorar la versión fuera de este.
+
+[![](tablero_cerf.png)](https://peru.unfpa.org/es/tablero-de-monitoreo-del-proyecto-cerf)
+
+Versión fuera del entorno del UNFPA:
+
+<iframe src="https://desarroio.shinyapps.io/dash-cerf/" width="100%" height="1850" style="border: 1px solid #808080;"></iframe>
+

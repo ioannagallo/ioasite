@@ -1,0 +1,55 @@
+---
+title: "Una mirada a los mensajes presidenciales "
+subtitle: "Análisis del contenido de los discursos presidenciales desde 1963"
+description: "Procesamiento de lenguaje natural para discursos de toma de mando de presidentes peruanos"
+image: cover_mensajes.png
+toc: false
+page-layout: article
+date: "07/28/2021"
+categories:
+  - Procesamiento de lenguaje natural
+  - Política
+  - Python
+---
+
+El mensaje presidencial de Pedro Castillo en el bicentenario del Perú es el 5to discurso inaugural más largo desde 1963. Tiene \~7mil palabras, es el primero en decir "afroperuanos" y es el que más veces ha dicho la palabra "constitución".
+
+![](images/mensajes_1.png){fig-align="center" width="750"}
+
+Los mensajes más largos: Castillo usó \~7mil palabras. Lo superaron García (2veces), que tuvo discursos siempre por encima de 10mil y los gobiernos militares que también tuvieron discursos de gran longitud (\>8000).
+
+Los mensajes más breves: el de Vizcarra, con 1384 palabras. Los dos gobiernos de transición son los siguientes más cortos, ambos con menos de 2000. Hasta hoy parecía que con el tiempo los discursos tendían a hacerse más breves. Castillo casi triplicó a los últimos.
+
+Las palabras que más usó #pedrocastillo fueron "peruana/o", "salud", "pueblo" y "gobierno". En la imagen el top10 de su discurso:
+
+![](images/mensajes-2.png){fig-align="center" width="750"}
+
+Todas las palabras en el top10 de #pedrocastillo están en el top10 de algún otro presidente. Comparamos el top10 de palabras más usadas de los distintos presidentes desde 1963.
+
+![](images/mensajes-3.png){fig-align="center" width="750"}
+
+¿Qué discursos usaron palabras similares? Vemos, que Castillo usa palabras similares a las de Humala, Toledo y el 2do de García.
+
+![](images/mensajes-4.png){fig-align="center" width="750"}
+
+Mientras que existe cercanía entre las palabras usadas por los gobiernos anteriores al primero de Fujimori. Destaca la distancia de Sagasti, que en su discurso utilizó palabras muy distintas de los demás.
+
+Lo nuevo: Castillo ha sido el primer presidente (al menos desde 1963) en mencionar "afroperuano", "shipibo", "wari", "tawantinsuyo". También ha sido el primero en mencionar la inmigración japonesa y la china.
+
+Aunque Tupac Amaru ya habia sido mencionado en discursos inaugurales por Morales Bermudez y por Alan Garcia en su primer gobierno, Castillo es el primero en mencionar a Micaela Bastidas.
+
+Castillo ha sido también el presidente que más veces ha usado la palabra "constitución". Y el que más veces dijo la palabra Salud.
+
+![](images/mensajes-5.png){fig-align="center" width="750"}
+
+![](images/mensajes-6.png){fig-align="center" width="750"}
+
+Finalmente, algunos de los hallazgos más curiosos están en esta imagen que muestra de qué habló más cada presidente.
+
+![](images/mensajes-7.png){fig-align="center" width="750"}
+
+Castillo habló de "millones de soles" y PPK de "el año 2021". Vizcarra, Humala, Toledo y Morales Bermúdez hablaron de "todos los peruanos"; Fujimori(1) habló de "los derechos humanos", y Velasco de "el gobierno revolucionario".
+
+Este proyecto fue trabajado por @odaltomate @luiseee89 @ioannagallo @cjmsma @gonzalotalavera, Daniela Velit, Yvana Novoa y José Luis Flor
+
+Los discursos fueron descargados de la web del congreso. Todos los análisis se realizaron en Python. Para los conteos de palabras realizamos previamente normalización y lematización.

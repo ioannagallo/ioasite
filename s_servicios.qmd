@@ -1,0 +1,38 @@
+---
+title: "Servicios"
+toc: false
+---
+
+:::::::::::: {#services .services}
+::::::::: card-container
+:::::: service-card
+::: card-header
+### Dashboards ![](images/table-columns-solid.svg){.service-image}
+:::
+
+::: card-body
+Muestra el estado de avance de los KPI de tus proyectos o pon a disposición los datos de tus estudios para que tu audiencia pueda interactuar fácilmente con ellos, descubrir tendencias o profundizar en las particularidades de un territorio.
+:::
+::::::
+
+:::::: service-card
+::: card-header
+### Briefs ![](images/file-lines-regular.svg){.service-image}
+:::
+
+::: card-body
+Convierte extensos reportes de investigación o resultados de trabajo de campo en documentos breves con visualizaciones estáticas o interactivas efectivas que te ayuden a difundir tus hallazgos y recomendaciones de política.
+:::
+::::::
+
+:::::: service-card
+::: card-header
+### Visualizaciones ![](images/chart-column-solid.svg){.service-image}
+:::
+
+::: card-body
+Sintetiza tus hallazgos en gráficos efectivos que transmitan los mensajes más importantes de tus datos para tu público objetivo. Usa estos gráficos estáticos o animados para tus publicaciones en redes sociales o como insumos para tus presentaciones o pitchs.
+:::
+::::::
+:::::::::
+::::::::::::
